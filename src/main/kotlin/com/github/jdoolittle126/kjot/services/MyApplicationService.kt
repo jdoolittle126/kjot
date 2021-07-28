@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.jdoolittle126.kjot.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.jdoolittle126.kjot.MyBundle
 
 class MyApplicationService {
 
