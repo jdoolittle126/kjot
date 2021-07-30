@@ -6,11 +6,14 @@
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
-
+    <depends>com.intellij.modules.java</depends>
+    <depends config-file="kotlin-plugin.xml">org.jetbrains.kotlin</depends>
     <extensions defaultExtensionNs="com.intellij">
+        <enterHandlerDelegate implementation="com.github.jdoolittle126.kjot.handlers.KjotEnterHandler" order="first"/>
         <applicationService serviceImplementation="com.github.jdoolittle126.kjot.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.jdoolittle126.kjot.services.MyProjectService"/>
     </extensions>
+
 
     <applicationListeners>
         <listener class="com.github.jdoolittle126.kjot.listeners.MyProjectManagerListener"
