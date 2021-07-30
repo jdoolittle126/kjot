@@ -1,8 +1,6 @@
 # <img height="64" width="64" src="/src/main/resources/META-INF/pluginIcon.svg" /> KJot ![Build](https://github.com/jdoolittle126/kjot/workflows/Build/badge.svg) [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID) [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
----
-## About
-TODO
+TODO - What is KJot?
 
 
 ## Installation
